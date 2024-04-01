@@ -1,0 +1,113 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+}
+
+#page {
+    padding: 60px 120px 30px;
+}
+
+main {
+    margin: 60px 0px 60px 0px;
+}
+
+span {
+    font-weight: bold;
+}
+
+#menu ul {
+    list-style-type: none;
+    
+    font-family: "Mulish", sans-serif;
+
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 48px;
+}
+
+#menu ul a {
+    text-decoration: none;
+    color: #1F1534;
+    opacity: 50%;
+}
+
+#menu ul a:hover {
+    font-weight: bold;
+    opacity: 100%;
+}
+
+#main-text h1 {
+    font-family: "Mulish", sans-serif;
+    font-size: 49px;
+    font-weight: normal;
+    width: 420px;
+    margin: 0px;
+}
+
+#main-text p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #7D7987;
+    width: 330px;
+    margin: 40px 0px 40px 0px;
+}
+
+#main-text button {
+    border: none;
+    border-radius: 4px;
+    padding: 15px 32px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #F9F9F9;
+    background-color: #69B99D;
+}
+
+#main-text button:hover{
+    cursor: pointer;
+    background-color: #449e7e;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-text p {
+    font-size: 14px;
+    margin: 0px;
+}
+
+#footer-text a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+#footer-text a:hover {
+    font-size: 15px;
+}
+
+.display-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exclusivos {
+    font-weight: bold;
+    color: #89C5CC;
+}
+
+.balls {
+    position: absolute;
+    right: 0%;
+    bottom: -8%;
+}
